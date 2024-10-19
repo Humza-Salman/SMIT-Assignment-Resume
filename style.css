@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(images/Resume\ background.png);
+    background-size: cover;
+    background-position: fixed;
+    min-height: 100vh;
+}
+         /* Header of the resume */
+.Resume{
+    background-color: white;
+    height: 900px;
+    width: 800px;
+    position: absolute;
+    top: 30px;
+    left: 600px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15PX;
+    font-style:italic;
+    border-style: double;
+}
+#profilepic{
+    position: absolute;
+    height: 200px;
+    z-index: 1;
+}
+#profilepic2{
+    position: absolute;
+    height: 200px;
+    width: 100%;
+}
+h1{
+    position: absolute;
+    top: 60px;
+    left: 200px;
+    z-index: 1;
+}
+h4{
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    z-index: 1;
+}
+.groupicons{
+    position: absolute;
+    top: 120px;
+    left: 200px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+a:hover {
+    box-shadow: 
+		inset 0 0 0 transparent, 
+		inset 0 0 0 transparent, 
+		inset 0 0 0 transparent, 
+		inset 0 0 0 transparent, 
+		0 0 20px silver;
+	    color: transparent;
+
+  }
+    /* Starting Min Section */
+.container{
+    height: 200px;
+    width: 750px;
+    padding: 20px;
+    margin: 220px 0 0 15px;
+}
+.col1{
+    width: 350px;
+    padding-right: 30px;
+    float: left;
+}
+.col2{
+    width: 350px;
+    float: left;
+}
+.col1 ul{
+    padding: 10px;
+}
+.col1 li{
+    padding: 4px;
+}
+.col2 p{
+    padding: 10px;
+}
